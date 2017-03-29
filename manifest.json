@@ -3,10 +3,14 @@
 
   "name": "EZ/20",
   "description": "Alt gauche pour afficher les bonnes réponses, relacher la touche pour qu'elles disparaissent. Evitez de vous mettre 20/20 ;)",
-  "version": "1.0",
+  "version": "1.1",
+
+  "background": {
+      "scripts": ["background.js"]
+  },
 
   "browser_action": {
-    "default_icon": "EZ-20.ico"
+    "default_icon": "default.png"
   },
 
   "content_scripts": [
